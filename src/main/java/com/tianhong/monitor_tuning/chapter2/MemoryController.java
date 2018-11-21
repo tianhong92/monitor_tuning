@@ -19,7 +19,7 @@ public class MemoryController {
     private List<Class<?>> classList = new ArrayList<Class<?>>();
     /**
      *  模拟堆逸出
-     *  堆设置为32M： -Xmx32M -Xms32M
+     *  堆设置为32M -Xmx32M -Xms32M
      * @return
      */
     @GetMapping("/heap")
